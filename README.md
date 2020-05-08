@@ -9,7 +9,7 @@ So you have to understand that this is not my day to day Kali image. I use my va
 ## Almost no change
 
 - No snapshot:
-The PWK Kali 2018 come with a built-in snapshot if you want to revert the VM. Why I deleted it ? First, it cause problems when you try to package the new vagrant box. Second, I built this vagrant box to be able to easly destroy and create this image, so I dont want it anyway. Third, trying to make it smaller.
+The PWK Kali 2018 come with a built-in snapshot if you want to revert the VM. Why I deleted it ? First, it cause problems when you try to package the new vagrant box. Second, I built this vagrant box to be able to easily destroy and create this image, so I dont want it anyway. Third, trying to make it smaller.
 
 - New vagrant user:
 Of course, like every other vagrant box.
@@ -25,6 +25,8 @@ $ vagrant up
 $ vagrant ssh
 # see Vagrantfile-Example if you want the GUI to open when vagrant up
 ```
+
+- You can also clone this repo if you want.
 
 ## After installation recommendation
 

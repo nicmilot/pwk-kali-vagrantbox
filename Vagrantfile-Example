@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
 ### Set new SSH private key that match the pub key you set in /home/vagrant/.ssh/authorized_keys ###
   config.ssh.private_key_path = ["~/.ssh/yournewsshprivatekey"]
 ### sync folder ###
- # config.vm.synced_folder "shared", "/home/vagrant/Desktop/shared", disable: true
+ # config.vm.synced_folder "shared", "/home/vagrant/Desktop/shared", create: true
   config.vm.provider "vmware_fusion" do |v|
    v.gui = true
  #  v.linked_clone = false
