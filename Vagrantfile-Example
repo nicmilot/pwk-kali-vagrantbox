@@ -1,0 +1,17 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "nicmilot/pwk-kali-2018"
+  config.vm.box_version = "1.0.0"
+  config.vm.provider "vmware_fusion"
+### custom ssh keys and config ###
+  config.ssh.insert_key = false
+### Set new SSH private key that match the pub key you set in /home/vagrant/.ssh/authorized_keys ###
+  config.ssh.private_key_path = ["~/.ssh/yournewsshprivatekey"]
+### sync folder ###
+ # config.vm.synced_folder "shared", "/home/vagrant/Desktop/shared", disable: true
+  config.vm.provider "vmware_fusion" do |v|
+   v.gui = true
+ #  v.linked_clone = false
+ #  v.vmx["memsize"] = "2048"
+ #  v.vmx["numvcpus"] = "2"
+  end
+end
