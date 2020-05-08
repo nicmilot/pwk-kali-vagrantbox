@@ -24,6 +24,9 @@ $ vagrant init nicmilot/pwk-kali-2018
 $ vagrant up
 $ vagrant ssh
 # see Vagrantfile-Example if you want the GUI to open when vagrant up
+# Going root
+$ sudo su
+$ cd
 ```
 
 - You can also clone this repo if you want.
