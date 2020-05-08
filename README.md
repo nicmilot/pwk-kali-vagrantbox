@@ -32,7 +32,7 @@ $ vagrant ssh
 
 - Change password of default user root. Default pass is: toor
 - Change password of user vagrant. Default pass is: vagrant
-- Reconfigure SSH and change vagrant default ssh pub key in authorized keys.
+- Reconfigure default SSH.
 
 ```bash
 $ cd /etc/ssh
@@ -41,7 +41,7 @@ $ sudo service ssh restart && sudo systemctl enable ssh
 $ sudo service ssh status
 ```
 
-It's good practice to change the vagrant ssh key in /home/vagrant/.ssh/authorized_keys. But keep in mind if you do that you will need to update your Vagrantfile (see Vagranfile-Example).
+It's good practice to change the default vagrant ssh key in /home/vagrant/.ssh/authorized_keys. But keep in mind if you do that you will need to update your Vagrantfile (see Vagranfile-Example).
 
 ```bash
 $ cd /home/vagrant/.ssh
