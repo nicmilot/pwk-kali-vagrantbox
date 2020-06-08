@@ -57,7 +57,7 @@ $ rm /home/vagrant/.ssh/authorized_keys.old
 
 ### Links
 
-OffSec PWK Kali 2018 - <https://support.offensive-security.com/pwk-kali-vm/>
-OffSec Kali VM 2020 (No "pwk version" for 2020. Looks like standard kali image) - <https://support.offensive-security.com/kali-vm/>
-My Vagrant box of Kali-PWK 2018 - <https://app.vagrantup.com/nicmilot/boxes/pwk-kali-2018>
-My Vagrant box of Kali 2020 (Kali 2020.1 image) - <https://app.vagrantup.com/nicmilot/boxes/kali-full-2020>
+- OffSec PWK Kali 2018 - <https://support.offensive-security.com/pwk-kali-vm/>
+- OffSec Kali VM 2020 (No "pwk version" for 2020. Looks like standard kali image) - <https://support.offensive-security.com/kali-vm/>
+- My Vagrant box of Kali-PWK 2018 - <https://app.vagrantup.com/nicmilot/boxes/pwk-kali-2018>
+- My Vagrant box of Kali 2020 (Kali 2020.1 image) - <https://app.vagrantup.com/nicmilot/boxes/kali-full-2020>
