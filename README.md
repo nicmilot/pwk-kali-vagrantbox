@@ -4,7 +4,7 @@
 
 ## Why ?
 
-So you have to understand that this is not my day to day Kali image. I use my vagrant box of Kali 2020.1 image (see links below). So why this ? First, because OffSec put some tools and others stuffs into the box that you may need sometimes. Second, when you attak a target in the lab and your tools have version problem, this box will probably solve it. So you can vagrant up, go take the right version of your tools and bring it into you personnel VM or you can use that box for this particular attack and you can destroy it after that.
+So you have to understand that this is not my day to day Kali image. I use my vagrant box of Kali 2020.3 image (see links below). So why this ? First, because OffSec put some tools and others stuffs into the box that you may need sometimes. Second, when you attak a target in the lab and your tools have version problem, this box will probably solve it. So you can vagrant up, go take the right version of your tools and bring it into you personnel VM or you can use that box for this particular attack and you can destroy it after that.
 
 ## Almost no change
 
@@ -60,4 +60,4 @@ $ rm /home/vagrant/.ssh/authorized_keys.old
 - OffSec PWK Kali 2018 - <https://support.offensive-security.com/pwk-kali-vm/>
 - OffSec Kali VM 2020 (No "pwk version" for 2020. Looks like standard kali image) - <https://support.offensive-security.com/kali-vm/>
 - My Vagrant box of Kali-PWK 2018 - <https://app.vagrantup.com/nicmilot/boxes/pwk-kali-2018>
-- My Vagrant box of Kali 2020 (Kali 2020.1 image) - <https://app.vagrantup.com/nicmilot/boxes/kali-full-2020>
+- My Vagrant box of Kali 2020 (Kali 2020.3 image) - <https://app.vagrantup.com/nicmilot/boxes/kali-full-2020>
